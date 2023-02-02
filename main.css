@@ -16,8 +16,8 @@ body {
 }
 
 #logo{
-  margin-left: 10px;
-  margin-top: 10px;
+  margin-left: 1187px;
+  margin-top: 40px;
   width: 80px;
   height: 80px;
 }
@@ -27,19 +27,28 @@ body {
 }
 
 .logo {
-  position: absolute;
+  position: absolute !important;
   top: 0px;
   left: 0px;
 }
 
 .menu {
-  background-color: rgb(191, 150, 192, 0.5);
+  background-color:white;
+  margin-left: 1177px;
+  width: 200px;
+  height: 170px;
+  padding-top: 15px;
   font-size: 25px;
   font-family: 'Times New Roman', Times, serif;
   border-style: solid;
   border-width: 2px;
-  border-color: rgb(251, 229, 203, 0.5);
-  text-align: left;
+  border-color: rgb(191, 150, 192);
+  text-align: right;
+}
+
+nav {
+  position: sticky;
+  top: 0;
 }
 
 ul {
@@ -205,7 +214,7 @@ h4[name="article"] {
 
 footer {
     background-color: rgb(191, 150, 192, 0.5);
-    height: 100% !important;
+    height: 100%;
     width: 100%;
 }
 
