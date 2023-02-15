@@ -163,7 +163,6 @@ li {
   margin-right: auto;
   min-width: 100%;
   max-width: 100%;
-  height: auto;
 }
 
 #photo {
@@ -171,7 +170,7 @@ li {
   margin-left: auto;
   margin-right: auto;
   min-width: 100%;
-  height: auto;
+  max-width: 100%;
 }
 
 
@@ -209,13 +208,9 @@ h4[name="article"] {
   height: auto;
 }
 
-footer {
-    min-height: 500px;
-}
-
 .contacts {
   background-color: rgb(191, 150, 192, 0.5);
-  min-height: 410px;
+  min-height: 75vh;
   float: left;
   color: black;
   font-size: 1.25em;
@@ -225,7 +220,7 @@ footer {
 
 .categories {
   background-color: rgb(191, 150, 192, 0.5);
-  min-height: 410px;
+  min-height: 75vh;
   float: left;
   color: black;
   font-size: 1.25em;
@@ -235,7 +230,7 @@ footer {
 
 .quick_links {
   background-color: rgb(191, 150, 192, 0.5);
-  min-height: 410px;
+  min-height: 75vh;
   float: left;
   color: black;
   font-size: 1.25em;
